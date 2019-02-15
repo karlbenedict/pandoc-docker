@@ -11,9 +11,11 @@ RUN apt-get update -y \
     texlive-math-extra \
     texlive-latex-extra \
     texlive-fonts-extra \
+    texlive-fonts-recommended \
     texlive-bibtex-extra \
     fontconfig \
-    lmodern
+    lmodern \
+    cm-super
 
 # will ease up the update process
 # updating this env variable will trigger the automatic build of the Docker image
