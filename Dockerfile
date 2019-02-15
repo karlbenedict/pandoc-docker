@@ -1,6 +1,7 @@
-FROM haskell:8.0
+FROM haskell:8
 
-MAINTAINER James Gregory <james@jagregory.com>
+MAINTAINER Karl Benedict <kbene@unm.edu>
+# forked from jagregory/pandoc-docker
 
 # install latex packages
 RUN apt-get update -y \
