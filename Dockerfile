@@ -22,7 +22,7 @@ RUN apt-get update -y \
 # ENV PANDOC_VERSION "1.19.2.1"
 
 # install pandoc
-RUN cabal update && cabal install pandoc pandoc-citeproc
+RUN cabal v2-update && cabal v2-install pandoc pandoc-citeproc
 
 WORKDIR /source
 
